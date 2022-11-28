@@ -10,6 +10,11 @@ int main(){
 		c=1;
 		for(i=1; i<=n; i++){
 			printf("%i ", i);
+			if(c==10){
+				printf("\n");
+				c=0;
+			}
+			c++;
 		}
 	}
 	else{
